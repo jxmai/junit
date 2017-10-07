@@ -13,7 +13,7 @@ jdk:
   - openjdk6
 
 
-  install:
+install:
   - echo "Downloading Maven 3.0";
   - wget https://archive.apache.org/dist/maven/binaries/apache-maven-3.0-bin.zip || travis_terminate 1
   - unzip -qq apache-maven-3.0-bin.zip || travis_terminate 1
