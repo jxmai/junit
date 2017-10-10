@@ -1,6 +1,5 @@
-dist: trusty
-sudo: required
 language: java
+install: ./mvnw install -DskipTests=true -Dgpg.skip=true
 script: mvn verify javadoc:javadoc site:site
 
 addons:
